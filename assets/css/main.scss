@@ -5,7 +5,12 @@
 @import 'normalize';
 @import 'code_style';
 @import 'flexible';
-
+@font-face {
+    font-family: 'UhBeeBongSik';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeBongSik.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* 0. Variables
    ========================================================================== */
@@ -271,7 +276,7 @@ img {
 .archive_type {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
 }
 
 .archive_year {
@@ -700,6 +705,10 @@ img {
     padding: 10px;
 }
 
+.post_personal {
+    font-family: 'UhBeeBongSik';
+    font-size: 1.5rem;
+}
 
 /* 6. Footer
    ========================================================================== */
